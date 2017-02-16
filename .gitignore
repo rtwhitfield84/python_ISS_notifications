@@ -1,0 +1,8 @@
+*.rdb
+bin/
+include/
+lib/
+pip-selfcheck.json
+redis-stable.tar.gz
+redis-stable/
+venv/
