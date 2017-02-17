@@ -6,3 +6,5 @@ pip-selfcheck.json
 redis-stable.tar.gz
 redis-stable/
 venv/
+__pycache__/
+*.pyc
