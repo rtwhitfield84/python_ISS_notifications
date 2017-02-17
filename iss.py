@@ -14,9 +14,6 @@ scheduler = Scheduler(connection=redis_server)
 
 client = TwilioRestClient()
 
-# phone_number = '+16153103814'
-# lat = '37.7833'
-# lon = '-122.4167'
 def get_next_pass(lat, lon):
     iss_url = 'http://api.open-notify.org/iss-pass.json'
     location = {'lat': lat, 'lon': lon}
